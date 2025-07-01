@@ -1,0 +1,10 @@
+module = Parent of the applciation
+component - Display part of the app.
+services - DI to connect with external source.
+pipes  - to do run time data change
+directive - to acheive small
+routing - to navigate bw the pages.
+
+package.json > angular.json(application configuration)> main.ts > app.module.ts >app.componetes.ts
+
+
