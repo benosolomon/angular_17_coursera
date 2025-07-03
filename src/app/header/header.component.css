@@ -1,0 +1,19 @@
+header {
+  height: 60px;
+  background-color: #3b2632;;
+}
+
+#brand {
+  color: white;
+  font-size: 30px;
+  margin-left: 1%;
+  float: left;
+
+}
+#social {
+  float: right;
+}
+.social-icon {
+  height:20px;
+  margin: auto;
+}

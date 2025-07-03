@@ -1,0 +1,7 @@
+<p>child works!</p>
+
+<ul>
+  @for (item of items; track $index) {
+    <li (click)="selectedItem(item)"> {{item}}</li>
+  }
+</ul>
