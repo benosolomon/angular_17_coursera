@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ChildComponent } from '../child/child.component';
+import { MydirectiveDirective } from '../mydirective.directive';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [ChildComponent],
+  imports: [ChildComponent,
+    MydirectiveDirective
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
