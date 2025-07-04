@@ -2,6 +2,12 @@
   <div id="brand">
     {{ heading | myupper: 'lower' }}
   </div>
+  <nav class="navbar">
+    <a routerLink="" routerLinkActive="active"
+    [routerLinkActiveOptions]="{exact: true}">Home</a>
+    <a routerLink="/about" routerLinkActive="active">About</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+  </nav>
   <div id="social">
     <button class="social-icon"> Hello </button>
   </div>

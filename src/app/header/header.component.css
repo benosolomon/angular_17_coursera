@@ -2,7 +2,17 @@ header {
   height: 60px;
   background-color: #3b2632;;
 }
-
+.navbar {
+  overflow: hidden;
+}
+.navbar a{
+  float: left;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
 #brand {
   color: white;
   font-size: 30px;
