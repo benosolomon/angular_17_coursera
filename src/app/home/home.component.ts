@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ChildComponent } from '../child/child.component';
 import { MydirectiveDirective } from '../mydirective.directive';
 import { DataServiceService } from '../data-service.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -17,8 +18,10 @@ import { DataServiceService } from '../data-service.service';
 export class HomeComponent implements OnInit {
 
 
-  constructor(private dataService: DataServiceService) {}
-  superAdmin = false;
+  constructor(private dataService: DataServiceService,
+    private router: Router
+  ) {}
+  superAdmin = true;
   Admin = false;
   color='red';
   itemList = ['Item1','Item2','Item3'];
@@ -28,6 +31,9 @@ export class HomeComponent implements OnInit {
   }
   onSelctedItem(item: string){
   this.selectedItem = item;
+}
+gotoCource() {
+  this.router.navigate(['/course']);
 }
 addNewItem() {
   const newItem =
