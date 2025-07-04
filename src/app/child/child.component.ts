@@ -9,7 +9,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class ChildComponent {
   @Input()
-  items!: string[];
+  items!: any[];
 
   @Output()
   selectedItemEvent = new EventEmitter<string>();

@@ -2,6 +2,6 @@
 
 <ul>
   @for (item of items; track $index) {
-    <li (click)="selectedItem(item)"> {{item}}</li>
+    <li (click)="selectedItem(item)"> {{item?.name}}</li>
   }
 </ul>
