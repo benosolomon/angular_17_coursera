@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
+import { RxjsTutorialComponent } from './rxjs-tutorial/rxjs-tutorial.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { CommonModule } from '@angular/common';
   imports: [RouterOutlet,
     FormsModule,
     FooterComponent,
+    RxjsTutorialComponent,
 CommonModule,
 RouterOutlet,
     HeaderComponent],
