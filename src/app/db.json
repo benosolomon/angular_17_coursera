@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello world",
+      "author": "John"
+    },
+    {
+      "id": 2,
+      "title": "Hello world 2",
+      "author": "James"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "content": "Great "
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "content": "Nest "
+    }
+  ]
+}

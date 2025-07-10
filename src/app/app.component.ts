@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
 import { RxjsTutorialComponent } from './rxjs-tutorial/rxjs-tutorial.component';
+import { HttpClientComponent } from './http-client/http-client.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { RxjsTutorialComponent } from './rxjs-tutorial/rxjs-tutorial.component';
     RxjsTutorialComponent,
 CommonModule,
 RouterOutlet,
+HttpClientComponent,
     HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
