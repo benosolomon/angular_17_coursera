@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { CommonModule } from '@angular/common';
 import { RxjsTutorialComponent } from './rxjs-tutorial/rxjs-tutorial.component';
 import { HttpClientComponent } from './http-client/http-client.component';
+import { FormArrayComponent } from './form-array/form-array.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet,
     FormsModule,
+    FormArrayComponent,
     FooterComponent,
     RxjsTutorialComponent,
 CommonModule,
